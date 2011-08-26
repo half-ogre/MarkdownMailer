@@ -38,5 +38,5 @@ Or, you can use the default <system.net> applicaton (or web) configuration, e.g.
 
 ## Use
 
-   var mailSender = new MailSender();
-   mailSender.Send("from@address.com", "to@address.com", "Test", "This is a **test**");
+    var mailSender = new MailSender();
+    mailSender.Send("from@address.com", "to@address.com", "Test", "This is a **test**");
