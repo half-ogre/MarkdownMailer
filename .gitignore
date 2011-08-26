@@ -1,0 +1,6 @@
+bin
+Bin
+obj
+*.user
+*.suo
+*.nupkg

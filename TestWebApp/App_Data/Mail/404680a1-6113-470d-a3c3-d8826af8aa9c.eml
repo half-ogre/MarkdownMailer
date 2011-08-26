@@ -1,0 +1,28 @@
+X-Sender: ego@anglicangeek.com
+X-Receiver: ego+test@anglicangeek.com
+MIME-Version: 1.0
+From: ego@anglicangeek.com
+To: ego+test@anglicangeek.com
+Date: 25 Aug 2011 22:34:31 -0700
+Subject: Test
+Content-Type: multipart/alternative;
+ boundary=--boundary_0_b4d957db-7ede-4cce-b313-fecf98f2f3d6
+
+
+----boundary_0_b4d957db-7ede-4cce-b313-fecf98f2f3d6
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+This is a *test*.
+----boundary_0_b4d957db-7ede-4cce-b313-fecf98f2f3d6
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+This is a *test*.
+----boundary_0_b4d957db-7ede-4cce-b313-fecf98f2f3d6
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+
+PHA+VGhpcyBpcyBhIDxlbT50ZXN0PC9lbT4uPC9wPgo=
+----boundary_0_b4d957db-7ede-4cce-b313-fecf98f2f3d6--
+
