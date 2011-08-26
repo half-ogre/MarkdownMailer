@@ -8,7 +8,7 @@ AnglicanGeek.MarkdownMailer is a simple library for sending email message with M
 
 ## Configure
 
-You can either pass a MailSenderConfiguraiton instance to the MailSender ctor, e.g.:
+You can either pass a MailSenderConfiguration instance to the MailSender ctor, e.g.:
 
     var mailSenderConfiguration = new MailSenderConfiguration() {
         DeliveryMethod = SmtpDeliveryMethod.Network,
