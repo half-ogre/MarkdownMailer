@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>anglicangeek</authors>
+    <licenseUrl>https://github.com/anglicangeek/AnglicanGeek.MarkdownMailer/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/anglicangeek/AnglicanGeek.MarkdownMailer</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple library for sending email message with Markdown bodies, that creates the text and HTML views from the Markdown.</description>
+  </metadata>
+</package>
