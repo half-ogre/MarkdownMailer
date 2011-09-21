@@ -5,5 +5,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProduct("AnglicanGeek.MarkdownMailer")]
 [assembly: AssemblyCompany("Andrew Miller <ego@anglicangeek.com>")]
 [assembly: AssemblyCopyright("Copyright (C) 2011 Andrew Miller <ego@anglicangeek.com>")]
-[assembly: AssemblyVersion("0.1.0.0")]
+[assembly: AssemblyVersion("1.2.0.0")]
 [assembly: ComVisible(false)]

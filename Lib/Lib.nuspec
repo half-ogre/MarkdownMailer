@@ -8,5 +8,8 @@
     <projectUrl>https://github.com/anglicangeek/AnglicanGeek.MarkdownMailer</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A simple library for sending email message with Markdown bodies, that creates the text and HTML views from the Markdown.</description>
+    <dependencies>
+      <dependency id="MarkdownSharp" version="" />
+    </dependencies>
   </metadata>
 </package>

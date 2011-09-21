@@ -2,6 +2,7 @@
 using System.Net.Mail;
 using MarkdownSharp;
 using System.Net.Mime;
+using System.IO;
 
 namespace AnglicanGeek.MarkdownMailer
 {
@@ -83,6 +84,10 @@ namespace AnglicanGeek.MarkdownMailer
         }
 
         public void Send(MailMessage mailMessage) {
+            if (smtpClient.DeliveryMethod == SmtpDeliveryMethod.SpecifiedPickupDirectory
+                && !Directory.Exists(smtpClient.PickupDirectoryLocation))
+                Directory.CreateDirectory(smtpClient.PickupDirectoryLocation);
+            
             string markdownBody = mailMessage.Body;
             string htmlBody = new Markdown().Transform(markdownBody);
 
