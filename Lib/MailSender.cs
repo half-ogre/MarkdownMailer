@@ -38,7 +38,7 @@ namespace AnglicanGeek.MarkdownMailer
             this.smtpClient = smtpClient;
         }
 
-        internal void ConfigureSmtpClient(
+        static internal void ConfigureSmtpClient(
             ISmtpClient smtpClient, 
             MailSenderConfiguration configuration)
         {
@@ -76,9 +76,11 @@ namespace AnglicanGeek.MarkdownMailer
             string subject, 
             string markdownBody)
         {
-            var mailMessage = new MailMessage(fromAddress, toAddress);
-            mailMessage.Subject = subject;
-            mailMessage.Body = markdownBody;
+            var mailMessage = new MailMessage(fromAddress, toAddress)
+            {
+                Subject = subject, 
+                Body = markdownBody
+            };
 
             Send(mailMessage);
         }
@@ -104,6 +106,11 @@ namespace AnglicanGeek.MarkdownMailer
             mailMessage.AlternateViews.Add(htmlView);
             
             smtpClient.Send(mailMessage);
+        }
+
+        public void Dispose()
+        {
+            smtpClient.Dispose();
         }
     }
 }

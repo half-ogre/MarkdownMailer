@@ -1,8 +1,9 @@
-﻿using System.Net.Mail;
+﻿using System;
+using System.Net.Mail;
 
 namespace AnglicanGeek.MarkdownMailer
 {
-    public interface IMailSender
+    public interface IMailSender : IDisposable
     {
         void Send(
             string fromAddress,
