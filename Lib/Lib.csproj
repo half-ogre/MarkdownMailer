@@ -8,8 +8,8 @@
     <ProjectGuid>{291ED41D-D200-43D8-A213-B21108D7E3B5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AnglicanGeek.MarkdownMailer</RootNamespace>
-    <AssemblyName>AnglicanGeek.MarkdownMailer</AssemblyName>
+    <RootNamespace>MarkdownMailer</RootNamespace>
+    <AssemblyName>MarkdownMailer</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

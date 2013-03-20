@@ -4,7 +4,7 @@ using MarkdownSharp;
 using System.Net.Mime;
 using System.IO;
 
-namespace AnglicanGeek.MarkdownMailer
+namespace MarkdownMailer
 {
     public class MailSender : IMailSender
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Mail;
 
-namespace AnglicanGeek.MarkdownMailer
+namespace MarkdownMailer
 {
     public interface IMailSender : IDisposable
     {

@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
-using AnglicanGeek.MarkdownMailer;
 using System.Net.Mail;
 using System;
+using MarkdownMailer;
 
 namespace TestWebApp.Controllers
 {

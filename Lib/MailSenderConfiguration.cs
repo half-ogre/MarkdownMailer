@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Net.Mail;
 
-namespace AnglicanGeek.MarkdownMailer
+namespace MarkdownMailer
 {
     public class MailSenderConfiguration
     {

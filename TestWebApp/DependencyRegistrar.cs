@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using AnglicanGeek.Mvc;
-using AnglicanGeek.MarkdownMailer;
 using System.Net.Mail;
+using MarkdownMailer;
 
 namespace TestWebApp {
     public class DependencyRegistrar : IDependencyRegistrar {
