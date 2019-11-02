@@ -1,3 +1,5 @@
+_**NOTICE! This repo is very outdated and is no longer maintained.**_
+
 MarkdownMailer is a simple library for sending email message with Markdown bodies, that creates the text and HTML views from the Markdown.
 
 # How to Use
